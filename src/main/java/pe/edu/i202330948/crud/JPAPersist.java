@@ -18,7 +18,9 @@ public class JPAPersist {
         EntityManager em = emf.createEntityManager();
 
         // crear el país imaginario
-        Country country = new Country("ZZZ", "Tibecuador", "South America", "Caribbean", 9833517.0, 1776, 331002651, 78.9, 600.0, 230051.0, "Tibecuador", "Federal Republic", "Goku", 5, "ZZ", null, null);
+        Country country = new Country("ZZZ", "Tibecuador", "South America", "Caribbean", 9833517.0,
+                1776, 331002651, 78.9, 600.0, 230051.0, "Tibecuador",
+                "Federal Republic", "Pikachu", 50, "ZZ", null, null);
 
         // crear las ciudades
         City city1 = new City("CiudadA", "Distrito1", 500000, country);
